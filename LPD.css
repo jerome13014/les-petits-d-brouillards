@@ -18,6 +18,7 @@ main {
 
 h1 {
     color: blue;
+    text-align: center;
 }
 
 .action {
@@ -50,4 +51,35 @@ ul li {
     margin-right: 10px;
 }
 
+@media screen and (min-width: 600px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    main div {
+        flex: 1;
+        min-width: 45%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid green;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        width: 780px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 1180px;
+    }
+
+    main div {
+        min-width: 25%;
+    }
+}
