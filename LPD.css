@@ -1,7 +1,53 @@
 body {
-    background-color: brown;
+    margin: 0;
+    padding-bottom: 3em;
+    position: relative;
+    background-color: #e2fa69;
+}
+
+header {
+    background-color: #86f723;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+main {
+    padding: 6px;
 }
 
 h1 {
     color: blue;
 }
+
+.action {
+    border: solid 2px black;
+}
+
+.picture {
+    width: 100%;
+}
+
+select {
+    background-color: blue;
+    color: bisque;
+    border: none;
+}
+
+select:hover {
+    background-color: red;
+}
+
+.footer-container {
+    text-align: center;
+    border-top: solid 1px black;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
